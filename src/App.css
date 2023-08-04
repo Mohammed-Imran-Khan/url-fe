@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  background-color: #e6f7ff; /* Light Blue (Changed) */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1a237e; /* Dark Indigo (Changed) */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.App-link {
+  color: #4caf50; /* Green (Changed) */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.display {
+  display: grid;
+  padding: 3%;
+  background-color: #b3e5fc; /* Light Blue (Changed) */
+  border: 1px solid #3f51b5; /* Indigo (Changed) */
+  border-radius: 10px; /* Rounded edges */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.urlbar {
+  padding: 1%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: #ffcc80; /* Light Orange (Changed) */
+  border: 1px solid #e65100; /* Deep Orange (Changed) */
+  border-radius: 10px; /* Rounded edges */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.accbar {
+  padding: 1%;
+  margin-bottom: 20px;
+  background-color: #f48fb1; /* Light Pink (Changed) */
+  border: 1px solid #880e4f; /* Dark Pink (Changed) */
+  border-radius: 10px; /* Rounded edges */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titlebar {
+  padding: 1%;
+  margin-top: 50px;
+  background-color: #e1bee7; /* Light Purple (Changed) */
+  border: 1px solid #4a148c; /* Dark Purple (Changed) */
+  border-radius: 10px; /* Rounded edges */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
