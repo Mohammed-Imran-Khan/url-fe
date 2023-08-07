@@ -12,7 +12,7 @@ function Login(){
         event.preventDefault();
 
         const res = await fetch(
-            "https://url-be-ae74.onrender.com//login",
+            "https://url-be-ae74.onrender.com/login",
             {
                 method:"POST",
                 body:JSON.stringify({
