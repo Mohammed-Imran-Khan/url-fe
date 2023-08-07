@@ -12,7 +12,7 @@ const Signup =(signup)=>{
         event.preventDefault();
       try {
         const res = await fetch(
-          "https://url-be-ae74.onrender.com//signup",
+          "https://url-be-ae74.onrender.com/signup",
           {
             method:"POST",
             body:JSON.stringify({
