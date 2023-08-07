@@ -17,7 +17,7 @@ function Homepage(){
     const getShortData = async () => {
       try {
         const response = await fetch(
-          "https://url-be-ae74.onrender.com//urlRoutes/all",
+          "https://url-be-ae74.onrender.com/urlRoutes/all",
           {
             method: "GET",
             headers: {
@@ -41,7 +41,7 @@ function Homepage(){
       event.preventDefault();
       try {
         const res = await fetch(
-          "https://url-be-ae74.onrender.com//urlRoutes/create",
+          "https://url-be-ae74.onrender.com/urlRoutes/create",
           {
             method: "POST",
             body: JSON.stringify({
@@ -69,7 +69,7 @@ function Homepage(){
     const handleDelete = async (id) => {
       try {
         const res = await fetch(
-          `https://url-be-ae74.onrender.com//urlRoutes/delete/${id}`,
+          `https://url-be-ae74.onrender.com/urlRoutes/delete/${id}`,
           {
             method: "DELETE",
             headers: {
